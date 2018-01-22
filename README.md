@@ -1,0 +1,2 @@
+# minimalDocker
+Docker for teaching
