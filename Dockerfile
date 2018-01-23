@@ -30,6 +30,7 @@ RUN git clone https://github.com/tristan-salles/exGEOS3102.git
 
 WORKDIR /workspace
 RUN cp -av /build/exGEOS3102/* /workspace/
+RUN rm -rf /workspace/solution
 
 EXPOSE 8888
 ENTRYPOINT ["/usr/local/bin/tini", "--"]
